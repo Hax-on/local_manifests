@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+  <!-- Device trees -->
+  <project path="device/zte/ailsa_ii" name="Hax-on/android_device_zte_ailsa_ii" />
+  <project path="kernel/zte/msm8996" name="Hax-on/android_kernel_zte_msm8996" />
+  <project path="vendor/zte" name="Hax-on/proprietary_vendor_zte" />
+
+</manifest>
