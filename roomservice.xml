@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Hax-on/android_device_zte_ailsa_ii" path="device/zte/ailsa_ii" remote="github" />
+  <project name="Hax-on/proprietary_vendor_zte" path="vendor/zte" remote="github" />
+  <project name="Hax-on/android_kernel_zte_msm8996" path="kernel/zte/msm8996" remote="github" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" revision="cm-13.0-caf-8084" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" revision="cm-13.0-caf-8916" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" revision="cm-13.0-caf-8937" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="cm-13.0-caf-8952" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-13.0-caf-8960" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="cm-13.0-caf-8974" />
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" revision="cm-13.0-caf-8994" />
+  <project groups="qcom,qcom_audio" name="Hax-on/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="cm-13.0-caf-msm8996" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" revision="cm-13.0-caf-8084" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" revision="cm-13.0-caf-8916" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" revision="cm-13.0-caf-8937" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="cm-13.0-caf-8952" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="cm-13.0-caf-8960" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="cm-13.0-caf-8974" />
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" revision="cm-13.0-caf-8994" />
+  <project groups="pdk,qcom,qcom_display" name="Hax-on/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="cm-13.0-caf-msm8996" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" revision="cm-13.0-caf-8084" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" revision="cm-13.0-caf-8916" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" revision="cm-13.0-caf-8937" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" revision="cm-13.0-caf-8952" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-13.0-caf-8960" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="cm-13.0-caf-8974" />
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" revision="cm-13.0-caf-8994" />
+  <project groups="qcom" name="Hax-on/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" revision="cm-13.0-caf-msm8996" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" />
+  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" />
+  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" />
+</manifest>
